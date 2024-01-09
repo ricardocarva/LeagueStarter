@@ -1,0 +1,59 @@
+@page
+@model IndexModel
+@using League.Models;
+
+@{
+  ViewData["Title"] = "Team page";
+}
+
+<div class="text-center jumbotron">
+  <h2 class="display-3">League</h2>
+</div>
+
+<div class= "d-flex bg-success text-white">
+  <div class="p-2" style="flex:0 0 auto">Team</div>
+  <div class="p-2" style="flex:0 0 auto">Location</div>
+  <div class="p-2" style="flex:0 0 auto">Name</div>
+  <div class="p-2" style="flex:0 0 auto">Win</div>
+  <div class="p-2" style="flex:0 0 auto">Loss</div>
+  <div class="p-2" style="flex:0 0 auto">Tie</div>
+  <!-- <div class="p-2" style="flex:0 0 auto">PointsFor</div>
+  <div class="p-2" style="flex:0 0 auto">PointsAgainst</div>
+  <div class="p-2" style="flex:0 0 auto">Stadium</div>
+  <div class="p-2" style="flex:0 0 auto">Capacity</div>
+  <div class="p-2" style="flex:0 0 auto">Address</div>
+  <div class="p-2" style="flex:0 0 auto">City</div>
+  <div class="p-2" style="flex:0 0 auto">State</div>
+  <div class="p-2" style="flex:0 0 auto">Zip</div>
+  <div class="p-2" style="flex:0 0 auto">Latitude</div>
+  <div class="p-2" style="flex:0 0 auto">Longitude</div> -->
+</div>
+
+@foreach (Conference Conference in Model.Conferences)
+{
+  @foreach (Division Division in Model.GetConferenceDivisions(Conference.ConferenceId))
+  {
+    @foreach (Team Team in Model.GetDivisionTeams(Division.DivisionId))
+    {
+      <div class= "d-flex border-left border-right border-bottom border-primary">
+        <div class="p-2" style="flex:0 0 auto">@Team.TeamId</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Location</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Name</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Win</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Loss</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Tie</div>
+        <!-- <div class="p-2" style="flex:0 0 auto">@Team.PointsFor</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.PointsAgainst</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Stadium</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Capacity</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Address</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.City</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.State</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Zip</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Latitude</div>
+        <div class="p-2" style="flex:0 0 auto">@Team.Longitude</div> -->
+      </div>
+    }
+
+  }
+}
