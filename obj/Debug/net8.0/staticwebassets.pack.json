@@ -1,0 +1,553 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/ari.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/ari.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/atl.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/atl.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/bal.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/bal.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/buf.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/buf.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/car.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/car.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/chi.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/chi.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/cin.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/cin.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/cle.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/cle.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/dal.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/dal.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/den.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/den.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/det.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/det.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/gb.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/gb.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/hou.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/hou.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/ind.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/ind.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/jax.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/jax.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/kc.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/kc.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/lar.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/lar.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/mia.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/mia.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/min.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/min.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/ne.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/ne.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/no.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/no.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/nyg.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/nyg.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/nyj.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/nyj.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/oak.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/oak.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/phi.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/phi.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/pit.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/pit.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/sd.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/sd.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/sea.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/sea.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/sf.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/sf.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/tb.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/tb.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/ten.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/ten.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/logo/wsh.png",
+      "PackagePath": "staticwebassets/image/nfl/logo/wsh.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/nfl.png",
+      "PackagePath": "staticwebassets/image/nfl/nfl.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/ari.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/ari.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/atl.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/atl.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/bal.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/bal.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/buf.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/buf.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/car.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/car.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/chi.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/chi.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/cin.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/cin.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/cle.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/cle.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/dal.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/dal.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/den.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/den.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/det.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/det.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/gb.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/gb.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/hou.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/hou.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/ind.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/ind.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/jax.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/jax.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/kc.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/kc.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/lar.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/lar.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/mia.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/mia.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/min.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/min.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/ne.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/ne.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/no.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/no.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/nyg.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/nyg.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/nyj.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/nyj.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/oak.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/oak.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/phi.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/phi.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/pit.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/pit.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/sd.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/sd.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/sea.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/sea.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/sf.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/sf.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/tb.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/tb.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/ten.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/ten.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/seating/wsh.png",
+      "PackagePath": "staticwebassets/image/nfl/seating/wsh.png"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/ari.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/ari.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/atl.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/atl.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/bal.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/bal.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/buf.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/buf.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/car.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/car.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/chi.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/chi.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/cin.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/cin.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/cle.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/cle.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/dal.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/dal.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/den.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/den.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/det.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/det.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/gb.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/gb.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/hou.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/hou.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/ind.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/ind.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/jax.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/jax.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/kc.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/kc.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/lar.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/lar.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/mia.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/mia.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/min.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/min.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/ne.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/ne.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/no.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/no.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/nyg.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/nyg.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/nyj.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/nyj.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/oak.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/oak.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/phi.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/phi.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/pit.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/pit.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/sd.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/sd.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/sea.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/sea.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/sf.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/sf.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/tb.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/tb.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/ten.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/ten.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/image/nfl/stadium/wsh.jpg",
+      "PackagePath": "staticwebassets/image/nfl/stadium/wsh.jpg"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ricardocarvalheira/Documents/repos/LeagueStarter/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.League.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.League.props",
+      "PackagePath": "build\\League.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.League.props",
+      "PackagePath": "buildMultiTargeting\\League.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.League.props",
+      "PackagePath": "buildTransitive\\League.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
