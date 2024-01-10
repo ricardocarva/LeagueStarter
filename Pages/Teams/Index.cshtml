@@ -13,38 +13,38 @@
 
 @foreach (Conference Conference in Model.Conferences)
 {
-    @foreach (Division Division in Model.GetConferenceDivisions(Conference.ConferenceId))
+@foreach (Division Division in Model.GetConferenceDivisions(Conference.ConferenceId))
     {
-        <h2 class="p-1 text-center bg-primary text-white">@Division.DivisionId</h2>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Location</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Team</th>
-                    <th scope="col">Win</th>
-                    <th scope="col">Loss</th>
-                    <th scope="col">Tie</th>
-                    <th scope="col">PointsFor</th>
-                    <th scope="col">PointsAgainst</th>
+<h2 class="p-1 text-center bg-primary text-white">@Division.DivisionId</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Location</th>
+            <th scope="col">Name</th>
+            <th scope="col">Team</th>
+            <th scope="col">Win</th>
+            <th scope="col">Loss</th>
+            <th scope="col">Tie</th>
+            <th scope="col">PointsFor</th>
+            <th scope="col">PointsAgainst</th>
 
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (Team Team in Model.GetDivisionTeams(Division.DivisionId))
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Team Team in Model.GetDivisionTeams(Division.DivisionId))
                 {
-                <tr>
-                    <th scope="row">@Team.Location</th>
-                    <td>@Team.Name</td>
-                    <td>@Team.TeamId</td>
-                    <td>@Team.Win</td>
-                    <td>@Team.Loss</td>
-                    <td>@Team.Tie</td>
-                    <td>@Team.PointsFor</td>
-                    <td>@Team.PointsAgainst</td>
-                </tr>
+        <tr>
+            <th scope="row">@Team.Location</th>
+            <td>@Team.Name</td>
+            <td>@Team.TeamId</td>
+            <td>@Team.Win</td>
+            <td>@Team.Loss</td>
+            <td>@Team.Tie</td>
+            <td>@Team.PointsFor</td>
+            <td>@Team.PointsAgainst</td>
+        </tr>
                     }
-            </tbody>
-        </table>
+    </tbody>
+</table>
     }
 }
