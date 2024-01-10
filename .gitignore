@@ -1,0 +1,16 @@
+# Ignore compiled files
+*.class
+*.jar
+
+# Ignore log files
+*.log
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore build output
+/bin/
+/obj/
+
+.vs*
