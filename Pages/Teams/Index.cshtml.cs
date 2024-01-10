@@ -34,12 +34,12 @@ namespace League.Pages.Teams
 
     public List<Division> GetConferenceDivisions(string ConferenceId)
     {
-      return Divisions.Where(d => d.ConferenceId.Equals(ConferenceId)).ToList();
+      return Divisions.Where(d => d.ConferenceId.Equals(ConferenceId)).OrderBy(d => d.DivisionId).ToList();
     }
 
     public List<Team> GetDivisionTeams(string DivisionId)
     {
-      return Teams.Where(t => t.DivisionId.Equals(DivisionId)).ToList();
+      return Teams.Where(t => t.DivisionId.Equals(DivisionId)).OrderBy(t => t.Name).ToList();
     }
   }
 }
