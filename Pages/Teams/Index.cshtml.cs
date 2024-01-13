@@ -9,11 +9,15 @@ using Microsoft.EntityFrameworkCore;
 using League.Models;
 using League.Data;
 using System.Linq;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
+using Microsoft.AspNetCore.Http;
 
 namespace League.Pages.Teams
 {
   public class IndexModel : PageModel
   {
+    // inject the Entity Framework context
     private readonly LeagueContext _context;
 
     public IndexModel(LeagueContext context)
@@ -24,13 +28,39 @@ namespace League.Pages.Teams
     public List<Conference> Conferences { get; set; }
     public List<Division> Divisions { get; set; }
     public List<Team> Teams { get; set; }
-    public async Task OnGetAsync()
-    {
-      Conferences = await _context.Conferences.ToListAsync();
-      Divisions = await _context.Divisions.ToListAsync();
-      Teams = await _context.Teams.ToListAsync();
 
+    //allow storage of a favorite team
+    [BindProperty(SupportsGet = true)]
+    public string FavoriteTeam { get; set; }
+    public SelectList AllTeams { get; set; }
+
+     public async Task OnGetAsync()
+    {
+        // load all leagues, conferences, and divisions
+        Conferences = await _context.Conferences.ToListAsync();
+        Divisions = await _context.Divisions.ToListAsync();
+        Teams = await _context.Teams.ToListAsync();
+
+        // make a list of teams for the favorite select dropdown
+        IQueryable<string> teamQuery = from t in _context.Teams
+                                    orderby t.TeamId
+                                    select t.TeamId;
+
+        AllTeams = new SelectList(await teamQuery.ToListAsync());
+
+
+        // if a favorite exists manage the cookie
+
+        if (FavoriteTeam != null)
+        {
+            HttpContext.Session.SetString("_Favorite", FavoriteTeam);
+        }
+        else
+        {
+            FavoriteTeam = HttpContext.Session.GetString("_Favorite");
+        }
     }
+
 
     public List<Division> GetConferenceDivisions(string ConferenceId)
     {
