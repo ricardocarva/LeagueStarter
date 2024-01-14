@@ -33,13 +33,37 @@ namespace League.Pages.Teams
     [BindProperty(SupportsGet = true)]
     public string FavoriteTeam { get; set; }
     public SelectList AllTeams { get; set; }
+    [BindProperty(SupportsGet = true)]
+    public string SortField { get; set; } = "Location";
 
-     public async Task OnGetAsync()
+        public async Task OnGetAsync()
     {
         // load all leagues, conferences, and divisions
         Conferences = await _context.Conferences.ToListAsync();
         Divisions = await _context.Divisions.ToListAsync();
         Teams = await _context.Teams.ToListAsync();
+
+        switch (SortField)
+        {
+                case ("Location"): 
+                    Teams = Teams.OrderBy(t => t.Location).ToList();
+                    break;
+                case ("Name"):
+                    Teams = Teams.OrderBy(t => t.Name).ToList();
+                    break;
+                case ("Win"):
+                    Teams = Teams.OrderByDescending(t => t.Win).ToList();
+                    break;
+                case ("Loss"):
+                    Teams = Teams.OrderByDescending(t => t.Loss).ToList();
+                    break;
+                case ("Tie"):
+                    Teams = Teams.OrderByDescending(t => t.Tie).ToList();
+                    break;
+                default:
+                    Teams = Teams.OrderBy(t => t.Location).ToList();
+                    break;
+            }
 
         // make a list of teams for the favorite select dropdown
         IQueryable<string> teamQuery = from t in _context.Teams
