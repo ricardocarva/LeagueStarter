@@ -245,3 +245,4 @@ C:\Users\Ricardo\source\repos\LeagueStarter\obj\Debug\netcoreapp3.1\League.cspro
 C:\Users\Ricardo\source\repos\LeagueStarter\obj\Debug\netcoreapp3.1\League.dll
 C:\Users\Ricardo\source\repos\LeagueStarter\obj\Debug\netcoreapp3.1\League.pdb
 C:\Users\Ricardo\source\repos\LeagueStarter\obj\Debug\netcoreapp3.1\League.genruntimeconfig.cache
+C:\Users\Ricardo\source\repos\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Teams\Team.cshtml.g.cs
